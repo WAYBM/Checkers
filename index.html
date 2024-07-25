@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/png">
+    <title>CHECKERS</title>
+</head>
+<body>
+    <div class="sett" style="width: 33%;display: flex;align-items: center;flex-direction: column;justify-content: center;">
+        <button class="rotate">ROTATE</button>
+        <button class="replay">REPLAY</button>
+        <div class="eatenwhite" style="display:flex;flex-direction: row;">
+            <div class="countcirclewhite" style="display:flex;justify-content:center;align-items:center;width: 90px;height: 90px;background: white;-moz-border-radius: 50px;-webkit-border-radius: 50px;border-radius: 50px;margin:auto;border:1px solid rgb(218, 218, 218);"></div>
+            <p class="whitecount"></p>
+        </div> 
+        <div class="eatenblack" style="display:flex;flex-direction: row;align-items: center;">
+            <div class="countcircleblack" style="display:flex;justify-content:center;align-items:center;color:white;width: 90px;height: 90px;background: rgb(0, 0, 0);-moz-border-radius: 50px;-webkit-border-radius: 50px;border-radius: 50px;margin:auto;"></div>
+            <p class="countblack"></p>
+        </div>
+        <button class="x8">8x8</button>
+        <button class="x4">4x4</button>
+        <button class="x2">2x2</button>
+    </div>
+    <div class="desk">
+        <div class="pole"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
